@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  position: fixed;
+  top: 0px;
+  padding-top: 33px;
+  height: 88px;
+  width: 100%;
+  background-color: white;
+}
+.navigation {
+  padding-bottom: 33px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #828282;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.header a {
+  text-decoration: none;
+  color: #828282;
+}
+.active {
+  font-weight: 500;
+  color: #070707;
+}
+#home {
+  padding-top: 88px;
+}
+.text {
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  width: 124px;
+  height: 119px;
+  color: #070707;
+  font-size: 47px;
+}
+.age {
+  margin-top: 95px;
+}
+.lang {
+  transform: rotate(-90deg);
+  height: 20px;
+  width: 65px;
+  padding-right: 105px;
+  padding-left: 50px;
+}
+.avatar-wraper {
+  display: block;
+  overflow: hidden;
+  width: 943.61px;
+  height: 384.06px;
+}
+.avatar {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-top: -437px;
+}
+#about-me {
+  justify-content: center;
+  align-items: center;
+  color: #070707;
+  background-color: #f6f6f6;
+}
+.about-text {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 120px;
+  padding-bottom: 107px;
+  margin-top: 107px;
+}
+#skills {
+  padding-top: 91px;
+}
+.skills-text {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 84px;
+}
+.skills-h {
+  margin-bottom: 68;
+}
+.progs {
+  text-align: center;
+  color: #828282;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.progs > div {
+  display: flex;
+  flex-direction: column;
+}
+.progs svg {
+  margin-bottom: 0;
+}
+.stars {
+  align-items: center;
+}
+#portfolio {
+  justify-content: center;
+  align-items: center;
+  color: #070707;
+  background-color: #f6f6f6;
+  margin-top: 112px;
+  padding-top: 112px;
+}
+.portfolio-text {
+  text-align: center;
+  padding-bottom: 47px;
+}
+.portfolio-text1 {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 96px;
+  text-decoration: underline;
+}
+.portfolio-img {
+  width: 936px;
+  height: 510px;
+}
+#contacts {
+  display: flex;
+  padding: 114px 0px;
+  text-align: center;
+  justify-content: center;
+}
+.chat {
+  margin: 40px 0px;
+}
+a.nubex {
+  color: #ffffff;
+  user-select: none;
+  text-decoration: none;
+  outline: none;
+  background-color: #070707;
+  padding: 13px 30px;
+  box-shadow: 0px 4px 4px #00000040;
+  border-radius: 23px;
+}
+.networking {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 85px;
+  width: 343px;
+  margin: auto;
+}
+.like-me {
+  margin-top: 40px;
+  color: #828282;
+}
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  width: 100%;
+}
